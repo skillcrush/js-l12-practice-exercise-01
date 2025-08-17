@@ -20,7 +20,7 @@ const displayUsers = function (userResults) {
     const imageUrl = user.picture.medium;
     const userDiv = document.createElement("div");
     userDiv.innerHTML = `
-            <h3>${name}</h3>
+            <h2>${name}</h2>
             <p>${country}</p>
             <img src=${imageUrl} alt="User avatar" />
         `;
